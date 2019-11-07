@@ -24,3 +24,7 @@ while(<LIST>){
   	}
 }
 close(LIST);
+
+##Reference:
+#Li, W., Jaroszewski, L. and Godzik, A. (2002) ‘Tolerating some redundancy significantly speeds up clustering of large protein databases’, 
+#Bioinformatics, 18(1), pp. 77–82. doi: 10.1093/bioinformatics/18.1.77.

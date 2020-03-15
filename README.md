@@ -1,6 +1,6 @@
 # SiMiLyG
 Mapping shared sequences (Share-ome)
-#Python code for generating k-mers of any defined length form an input biological sequence
+#Python code for generating k-mers of any defined length from an input biological sequence
 kmerslicer is a source code, for constructing/generating generate k-mer (either peptides or nucleotide) sequences of any desired length, based on the sliding window method across given FASTA sequences from an input file.
 Written by Stephen A. James at School of Data Sciences, Perdana University, Malaysia 
 Email: james@perdanauniversity.edu.my

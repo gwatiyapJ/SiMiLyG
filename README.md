@@ -6,7 +6,7 @@ Written by Stephen A. James at School of Data Sciences, Perdana University, Mala
 Email: james@perdanauniversity.edu.my
 
 Description of Code:
-This is a Python code(s) designed to generate k-mers and write the output by either appending 
+This is a Python code(s) designed to generate k-mers and write the output (in "AMONG format") by either appending 
 k-mer; Accession number and index number e.g.
 A)
 MSDTGQMEE; AAK77753.1; 0000001
@@ -21,7 +21,7 @@ MSDTGQMEE; AAK77753.1; 0000005
 .
 .
 AAAAAAAAA; AAK77753.1; 0000345-0000348 0000373-0000376 0000401-0000403
-The code incorporates modules such as Biopython, Statistics, and in addition System-specific parameters and functions in the case of kmerslicer2 source code. The source code in “kmerslicer1” generates the output as shown in ‘A’  (i.e. append  k-mer; IDs;  serial-index number); while the source code in kmerslicer2 generates an output as in ‘B’ but with index number appended based the median residue in the k-mer length. In addition, in kmerslicer2 the occurrence of consecutive index number for a k-mer, it is presented in the form of range value.   For the basic implementation of the code see below: 
+The code incorporates modules such as Biopython, Statistics, and in addition System-specific parameters and functions in the case of kmerslicer2 source code. The source code in “kmerslicer1” generates the output as shown in ‘A’  (i.e. append  k-mer; IDs;  serial-index number (refere to as "AMONG format"); while the source code in kmerslicer2 generates an output as in ‘B’ but with index number appended based the median residue in the k-mer length. In addition, in kmerslicer2 the occurrence of consecutive index number for a k-mer, it is presented in the form of range value.   For the basic implementation of the code see below: 
 
 Input Format:
 A FASTA sequences with a description line (i.e. “> accessions number and sequences detail”) as start of each sequence
